@@ -6,7 +6,7 @@
 
 ## About
 
-This is a package help you integrate the Mobiverse USSD service into your Laravel application. Users will be able to access your application on USSD with codes like <strong>*1234#</strong> from their phones.
+This is a package to help you integrate the Mobiverse USSD service into your Laravel application. Users will be able to access your application on USSD with codes like <strong>*1234#</strong> from their phones.
 
 
 ## Installation
