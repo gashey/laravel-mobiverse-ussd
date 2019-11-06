@@ -1,9 +1,9 @@
 <?php
 
-namespace Gashey\MobiverseUssd\Activities;
+namespace Gashey\LaravelMobiverseUssd\Activities;
 
-use Gashey\MobiverseUssd\Lib\UssdActivity;
-use Gashey\MobiverseUssd\Lib\UssdResponse;
+use Gashey\LaravelMobiverseUssd\Lib\UssdActivity;
+use Gashey\LaravelMobiverseUssd\Lib\UssdResponse;
 
 class TimeOutActivity extends UssdActivity
 {

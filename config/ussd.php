@@ -14,17 +14,17 @@ return [
     /**
      * Called on a release request
      */
-    "release" => Gashey\MobiverseUssd\Activities\ReleaseActivity::class,
+    "release" => Gashey\LaravelMobiverseUssd\Activities\ReleaseActivity::class,
 
     /**
      * Called when session times out
      */
-    "timeout" => Gashey\MobiverseUssd\Activities\TimeOutActivity::class,
+    "timeout" => Gashey\LaravelMobiverseUssd\Activities\TimeOutActivity::class,
 
     /**
      * Called when a hijack session event occurs
      */
-    "hijack_session" => Gashey\MobiverseUssd\Activities\HijackSessionActivity::class,
+    "hijack_session" => Gashey\LaravelMobiverseUssd\Activities\HijackSessionActivity::class,
 
     "go_back_key" => "#",
 

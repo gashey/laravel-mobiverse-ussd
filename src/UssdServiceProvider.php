@@ -1,6 +1,6 @@
 <?php
 
-namespace Gashey\MobiverseUssd;
+namespace Gashey\LaravelMobiverseUssd;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 

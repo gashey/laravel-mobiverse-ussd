@@ -1,6 +1,6 @@
 <?php
 
-namespace Gashey\MobiverseUssd\Lib;
+namespace Gashey\LaravelMobiverseUssd\Lib;
 
 
 class UssdActivity implements IUssdActivity
@@ -73,7 +73,7 @@ class UssdActivity implements IUssdActivity
 
     protected function setReleaseResponse($message)
     {
-        $this->response->Type = \Gashey\MobiverseUssd\Lib\UssdResponse::RELEASE;
+        $this->response->Type = \Gashey\LaravelMobiverseUssd\Lib\UssdResponse::RELEASE;
         $this->response->Message = $message;
         return $this;
     }

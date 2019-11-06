@@ -1,5 +1,5 @@
 {
-    "name": "gashey/mobiverse-ussd",
+    "name": "gashey/laravel-mobiverse-ussd",
     "type": "library",
     "description": "Mobiverse USSD plugin for easy integration into Laravel projects",
     "keywords": [
@@ -9,7 +9,7 @@
         "ussd",
         "plugin"
     ],
-    "homepage": "https://github.com/gashey/mobiverse-ussd",
+    "homepage": "https://github.com/gashey/laravel-mobiverse-ussd",
     "license": "MIT",
     "authors": [
         {
@@ -27,13 +27,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Gashey\\MobiverseUssd\\": "src/"
+            "Gashey\\LaravelMobiverseUssd\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Gashey\\MobiverseUssd\\UssdServiceProvider"
+                "Gashey\\LaravelMobiverseUssd\\UssdServiceProvider"
             ]
         }
     }

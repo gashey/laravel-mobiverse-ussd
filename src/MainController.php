@@ -1,15 +1,15 @@
 <?php
 
-namespace Gashey\MobiverseUssd;
+namespace Gashey\LaravelMobiverseUssd;
 
 use Illuminate\Support\Facades\Cache;
-use Gashey\MobiverseUssd\Activities\HijackSessionActivity;
-use Gashey\MobiverseUssd\Activities\HomeActivity;
-use Gashey\MobiverseUssd\Activities\ReleaseActivity;
-use Gashey\MobiverseUssd\Activities\TimeOutActivity;
-use Gashey\MobiverseUssd\Lib\UssdActivity;
-use Gashey\MobiverseUssd\Lib\UssdRequest;
-use Gashey\MobiverseUssd\Lib\UssdResponse;
+use Gashey\LaravelMobiverseUssd\Activities\HijackSessionActivity;
+use Gashey\LaravelMobiverseUssd\Activities\HomeActivity;
+use Gashey\LaravelMobiverseUssd\Activities\ReleaseActivity;
+use Gashey\LaravelMobiverseUssd\Activities\TimeOutActivity;
+use Gashey\LaravelMobiverseUssd\Lib\UssdActivity;
+use Gashey\LaravelMobiverseUssd\Lib\UssdRequest;
+use Gashey\LaravelMobiverseUssd\Lib\UssdResponse;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;

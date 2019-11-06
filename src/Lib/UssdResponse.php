@@ -1,6 +1,6 @@
 <?php
 
-namespace Gashey\MobiverseUssd\Lib;
+namespace Gashey\LaravelMobiverseUssd\Lib;
 
 class UssdResponse
 {
