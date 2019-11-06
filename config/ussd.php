@@ -9,7 +9,7 @@ return [
     /**
      * This is the entry point of your ussd application.
      */
-    "home" => App\Activities\Home::class,
+    "home" => Gashey\LaravelMobiverseUssd\Activities\HomeActivity::class,
 
     /**
      * Called on a release request
