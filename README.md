@@ -16,9 +16,9 @@ Require the `gashey/laravel-mobiverse-ussd` package in your `composer.json` and 
 $ composer require gashey/laravel-mobiverse-ussd
 ```
 
-Add the MobiverseUssd\UssdServiceProvider to your `providers` array:
+Add the LaravelMobiverseUssd\UssdServiceProvider to your `providers` array:
 ```php
-Gashey\MobiverseUssd\ServiceProvider::class,
+Gashey\LaravelMobiverseUssd\ServiceProvider::class,
 ```
 
 ## Usage
@@ -36,8 +36,8 @@ A USSD activity is just a `php` class that extends the `UssdActivity` class. An 
 namespace App\Ussd\Activities;
 
 use App\Ussd\Activities\MenuSelection;
-use Gashey\MobiverseUssd\Lib\UssdActivity;
-use Gashey\MobiverseUssd\Lib\UssdResponse;
+use Gashey\LaravelMobiverseUssd\Lib\UssdActivity;
+use Gashey\LaravelMobiverseUssd\Lib\UssdResponse;
 
 class HomeActivity extends UssdActivity
 {
@@ -71,7 +71,7 @@ Once you have created your activiy files, you need to set your entry point activ
 
 The defaults are set in `config/ussd.php`. Publish the config using this command:
 ```sh
-$ php artisan vendor:publish --provider="Gashey\MobiverseUssd\UssdServiceProvider"
+$ php artisan vendor:publish --provider="Gashey\LaravelMobiverseUssd\UssdServiceProvider"
 ```
 
     
